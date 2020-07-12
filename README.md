@@ -1,3 +1,7 @@
+# osi-and-tcp  
+![osi-and-tcp](./osi-and-tcp.PNG)
+
+
 # add-nbo  
 syntax : add-nbo <file1> <file2>  
 sample : add-nbo a.bin c.bin  
