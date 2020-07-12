@@ -21,6 +21,10 @@ uint32_t fpToUint32(FILE* fp){
 	return result;
 }
 int main(int argc,char* argv[]){
+	if(argc!=3){
+		printf("Usage : %s <file1> <file2>\n",argv[0]);
+		return 0;
+	}
 	FILE* fp1 = fopen(argv[1],"r");
 	FILE* fp2 = fopen(argv[2],"r");
 	if(fp1==NULL || fp2==NULL){
